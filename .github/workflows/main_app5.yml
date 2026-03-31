@@ -3,7 +3,7 @@ name: Build and deploy Node.js app to Azure Web App - zenith-portal-web
 on:
   push:
     branches:
-      - main
+      - Rel12.2
   workflow_dispatch:
 
 jobs:
